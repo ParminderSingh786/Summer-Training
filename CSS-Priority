@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS priority check</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<style>
+h1{
+  background-color: coral;
+}
+</style>
+<body>
+<!-- Inline style: Inline style has highest priority among all.
+Id Selector: It has second highest priority.
+Classes, pseudo-classes and attributes: These selectors has lowest priority.
+-->
+  <h1 style="background-color: aqua;">hello world
+
+  </h1>
+</body>
+</html>
