@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Card</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, 
+								initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    .card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.card {
+	flex: 1 1 calc(33.33% - 20px);
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: lightblue;
+	border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+	.card {
+		flex: 1 1 calc(50% - 20px);
+	}
+}
+
+@media (max-width: 480px) {
+	.card {
+		flex: 1 1 calc(100% - 20px);
+	}
+}
+
+</style>
+<body>
+	<h1 style="text-align: center;">Create some cards but make it responsive using flexbox properties 3				</h1>
+	<div class="card-container">
+		<div class="card">
+			<h1>Card 1</h1>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ad unde explicabo id, laudantium nemo repellendus cum officiis, a labore facere sed rerum, eaque provident alias incidunt ipsum quibusdam exercitationem!
+			</p>
+		</div>
+		<div class="card">
+			<h1>Card 2</h1>
+			<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sequi, laboriosam consequuntur adipisci earum mollitia! Ducimus officia voluptatem eligendi nulla corrupti a voluptatibus dicta inventore vitae! Vero hic cupiditate labore.
+			</p>
+		</div>
+		<div class="card">
+			<h1>Card 3</h1>
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus beatae ea dignissimos, molestiae quia ullam est aperiam esse possimus quaerat impedit natus eveniet sed nisi tempore sunt doloremque accusantium officia.
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>
