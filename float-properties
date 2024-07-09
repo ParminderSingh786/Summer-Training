@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+ .div1{
+        background-color: lightpink;
+        height:400px;
+        width: 400px;
+        float: left;
+       
+      }
+      .img1{
+        height: 200px;
+        width:200px;
+        float: left;
+      }
+      .div2{
+        background-color:lightsalmon;
+        height:400px;
+        width: 400px;
+        float: right;
+      }
+      .img2{
+        height: 200px;
+        width:200px;
+        float: left;
+      }
+      footer{
+        background-color:rgb(57, 177, 237);
+        clear:both;
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+    
+    <div class="div1">
+        <h1>CatCSS</h1>
+        <img class="img1" src="./images/computer.webp" height="50px" alt="">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, dolorem aspernatur culpa consequatur iure eos minima maiores dolorum modi ullam ea, maxime ut mollitia, omnis necessitatibus ipsa eveniet cupiditate commodi!</p>
+    </div>
+    <div class="div2">
+      <h1>DogCSS</h1>
+      <img class="img2" src="./images/img_lights.jpg" height="50px" alt="">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus error quo at exercitationem expedita corrupti rerum quos quia. Praesentium, laborum eius? Illo iste voluptates eum, unde fugit optio provident non?</p>
+    </div>
+    <footer>
+    <h3 style="clear: both; background-color:lawngreen ;text-align: center;">@copyright</h3>
+</footer>
+
+</body>
+</html>
